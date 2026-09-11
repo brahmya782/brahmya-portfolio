@@ -730,16 +730,15 @@ function App() {
 
           <div className="resume-buttons">
 
-          <a
-            href={`${import.meta.env.BASE_URL}resume.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Resume
-          </a>
+            <a
+              href="/resume.pdf"
+              className="button primary"
+            >
+              View Resume ↗
+            </a>
 
             <a
-              href={`${import.meta.env.BASE_URL}resume.pdf`}
+              href="/resume.pdf"
               download="Brahmya_B_Anand_Resume.pdf"
               className="button secondary"
             >
